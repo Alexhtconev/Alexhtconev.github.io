@@ -1,0 +1,150 @@
+@media (max-width: 768px) {
+    .header {
+        &__logo {
+            width: 190px;
+        }
+        &__oficial {
+            width: 200px;
+        }
+        &__phone {
+            margin-bottom: 10px;
+        }
+    }
+    .promo__wrapper {
+        align-items: center;
+    }
+    .pluses__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width: 576px) {
+    .header {
+        &__oficial {
+            display: none;
+        }
+    }
+    .promo {
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+
+    }
+}
+@media (max-width: 426px) {
+    .header {
+        &__oficial {
+            display: none;
+        }
+    }
+    .promo {
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+
+    }
+}
+
+@media (max-width: 376px) {
+    .header {
+        &__oficial {
+            display: none;
+        }
+        &__logo {
+            width: 135px;
+        }
+        &__phone {
+            font-size: 13px;
+        }
+    }
+    .button {
+          width: 130px;  
+          height: 25px;
+          font-size: 9px;
+          margin-right: 15px;
+    }
+    .button_main {
+        margin: 0 auto;
+        width: 160px;
+        height: 32px;
+        font-size: 10px;
+    }
+    .promo {
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            padding-bottom: 20px;
+        }
+        &__link {
+            font-size: 11px;
+        }
+
+    }
+}
+
+@media (max-width: 321px) {
+    .header {
+        &__oficial {
+            display: none;
+        }
+        &__logo {
+            width: 135px;
+        }
+        &__phone {
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+    }
+    .button {
+          width: 130px;  
+          height: 25px;
+          font-size: 9px;
+          margin-right: 15px;
+    }
+    .button_main {
+        margin: 0 auto;
+        width: 160px;
+        height: 32px;
+        font-size: 10px;
+    }
+    .promo {
+        &__header {
+            font-size: 25px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            padding-bottom: 20px;
+        }
+        &__link {
+            font-size: 11px;
+        }
+
+    }
+    .pluses {
+        &__header {
+            font-size: 23px;
+        }
+    }
+        
+
+}
